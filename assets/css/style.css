@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    margin: 0 auto;
+    background-color: aliceblue;
+    width: 500px;
+    height: 400px;
+}
+main form div input{
+    width: 450px;
+    margin: 15px auto;
+    border: 1px solid black;
+    display: block;
+    background-color: white;
+    padding: 15px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+h1 {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: aquamarine;
+}
+
+.text  {
+    margin: 15px auto;
+    width: 450px;
+}
+textarea {
+    padding: 15px;
+    width: 450px;
+    height: 100px;
+}
+.button {
+    width: 450px;
+    margin: 15px auto;
+}
+input[type=submit]{
+    border: none;
+    width: 450px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+
+input[type=submit]:hover{
+    box-shadow: rgba(50, 93, 67, 0.25) 0px 30px 60px -12px inset, rgba(7, 103, 108, 0.3) 0px 18px 36px -18px inset;    
+    
+    background-color: #4ac6b3;
+}
